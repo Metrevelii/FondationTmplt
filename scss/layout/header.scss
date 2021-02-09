@@ -14,15 +14,12 @@
 
 .header-content-left {
     padding: 20px 5px;
-    &::before {
-        border-top: 1px solid black;
-    }
+    
 }
 
 .logo-img {
     max-width: 116px;
     width: 100%;
-   
 }
 
 .header-menu {
@@ -73,7 +70,7 @@
 
     .english-btn {
         font-size: $fontsize02;
-        color: #707070;
+        color: $color04;
     }
 
     .geo-btn {
