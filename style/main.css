@@ -36,10 +36,18 @@ table {
   border-spacing: 0; }
 
 a {
+  color: inherit;
   text-decoration: none; }
 
 * {
   box-sizing: border-box; }
+
+img {
+  display: block; }
+
+button, textarea, input {
+  border: none;
+  resize: none; }
 
 @font-face {
   font-family: 'Poppins Bold';
@@ -67,16 +75,16 @@ a {
 
 @font-face {
   font-family: 'Poppins Medium';
-  src: url("Poppins-Medium.eot");
-  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff2") format("woff2"), url("Poppins-Medium.woff") format("woff"), url("Poppins-Medium.ttf") format("truetype"), url("Poppins-Medium.svg#Poppins-Medium") format("svg");
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Poppins SemiBold';
-  src: url("Poppins-SemiBold.eot");
-  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff2") format("woff2"), url("Poppins-SemiBold.woff") format("woff"), url("Poppins-SemiBold.ttf") format("truetype"), url("Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  src: url("../fonts/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -119,10 +127,18 @@ table {
   border-spacing: 0; }
 
 a {
+  color: inherit;
   text-decoration: none; }
 
 * {
   box-sizing: border-box; }
+
+img {
+  display: block; }
+
+button, textarea, input {
+  border: none;
+  resize: none; }
 
 @font-face {
   font-family: 'Poppins Bold';
@@ -150,16 +166,16 @@ a {
 
 @font-face {
   font-family: 'Poppins Medium';
-  src: url("Poppins-Medium.eot");
-  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff2") format("woff2"), url("Poppins-Medium.woff") format("woff"), url("Poppins-Medium.ttf") format("truetype"), url("Poppins-Medium.svg#Poppins-Medium") format("svg");
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Poppins SemiBold';
-  src: url("Poppins-SemiBold.eot");
-  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff2") format("woff2"), url("Poppins-SemiBold.woff") format("woff"), url("Poppins-SemiBold.ttf") format("truetype"), url("Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  src: url("../fonts/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -255,10 +271,18 @@ table {
   border-spacing: 0; }
 
 a {
+  color: inherit;
   text-decoration: none; }
 
 * {
   box-sizing: border-box; }
+
+img {
+  display: block; }
+
+button, textarea, input {
+  border: none;
+  resize: none; }
 
 @font-face {
   font-family: 'Poppins Bold';
@@ -286,16 +310,16 @@ a {
 
 @font-face {
   font-family: 'Poppins Medium';
-  src: url("Poppins-Medium.eot");
-  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff2") format("woff2"), url("Poppins-Medium.woff") format("woff"), url("Poppins-Medium.ttf") format("truetype"), url("Poppins-Medium.svg#Poppins-Medium") format("svg");
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Poppins SemiBold';
-  src: url("Poppins-SemiBold.eot");
-  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff2") format("woff2"), url("Poppins-SemiBold.woff") format("woff"), url("Poppins-SemiBold.ttf") format("truetype"), url("Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  src: url("../fonts/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -338,10 +362,18 @@ table {
   border-spacing: 0; }
 
 a {
+  color: inherit;
   text-decoration: none; }
 
 * {
   box-sizing: border-box; }
+
+img {
+  display: block; }
+
+button, textarea, input {
+  border: none;
+  resize: none; }
 
 @font-face {
   font-family: 'Poppins Bold';
@@ -369,16 +401,16 @@ a {
 
 @font-face {
   font-family: 'Poppins Medium';
-  src: url("Poppins-Medium.eot");
-  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff2") format("woff2"), url("Poppins-Medium.woff") format("woff"), url("Poppins-Medium.ttf") format("truetype"), url("Poppins-Medium.svg#Poppins-Medium") format("svg");
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Poppins SemiBold';
-  src: url("Poppins-SemiBold.eot");
-  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff2") format("woff2"), url("Poppins-SemiBold.woff") format("woff"), url("Poppins-SemiBold.ttf") format("truetype"), url("Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  src: url("../fonts/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -421,10 +453,18 @@ table {
   border-spacing: 0; }
 
 a {
+  color: inherit;
   text-decoration: none; }
 
 * {
   box-sizing: border-box; }
+
+img {
+  display: block; }
+
+button, textarea, input {
+  border: none;
+  resize: none; }
 
 @font-face {
   font-family: 'Poppins Bold';
@@ -452,16 +492,16 @@ a {
 
 @font-face {
   font-family: 'Poppins Medium';
-  src: url("Poppins-Medium.eot");
-  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff2") format("woff2"), url("Poppins-Medium.woff") format("woff"), url("Poppins-Medium.ttf") format("truetype"), url("Poppins-Medium.svg#Poppins-Medium") format("svg");
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Poppins SemiBold';
-  src: url("Poppins-SemiBold.eot");
-  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff2") format("woff2"), url("Poppins-SemiBold.woff") format("woff"), url("Poppins-SemiBold.ttf") format("truetype"), url("Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  src: url("../fonts/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -504,10 +544,18 @@ table {
   border-spacing: 0; }
 
 a {
+  color: inherit;
   text-decoration: none; }
 
 * {
   box-sizing: border-box; }
+
+img {
+  display: block; }
+
+button, textarea, input {
+  border: none;
+  resize: none; }
 
 @font-face {
   font-family: 'Poppins Bold';
@@ -535,16 +583,16 @@ a {
 
 @font-face {
   font-family: 'Poppins Medium';
-  src: url("Poppins-Medium.eot");
-  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff2") format("woff2"), url("Poppins-Medium.woff") format("woff"), url("Poppins-Medium.ttf") format("truetype"), url("Poppins-Medium.svg#Poppins-Medium") format("svg");
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Poppins SemiBold';
-  src: url("Poppins-SemiBold.eot");
-  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff2") format("woff2"), url("Poppins-SemiBold.woff") format("woff"), url("Poppins-SemiBold.ttf") format("truetype"), url("Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  src: url("../fonts/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -640,10 +688,18 @@ table {
   border-spacing: 0; }
 
 a {
+  color: inherit;
   text-decoration: none; }
 
 * {
   box-sizing: border-box; }
+
+img {
+  display: block; }
+
+button, textarea, input {
+  border: none;
+  resize: none; }
 
 @font-face {
   font-family: 'Poppins Bold';
@@ -671,16 +727,16 @@ a {
 
 @font-face {
   font-family: 'Poppins Medium';
-  src: url("Poppins-Medium.eot");
-  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff2") format("woff2"), url("Poppins-Medium.woff") format("woff"), url("Poppins-Medium.ttf") format("truetype"), url("Poppins-Medium.svg#Poppins-Medium") format("svg");
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Poppins SemiBold';
-  src: url("Poppins-SemiBold.eot");
-  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff2") format("woff2"), url("Poppins-SemiBold.woff") format("woff"), url("Poppins-SemiBold.ttf") format("truetype"), url("Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  src: url("../fonts/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -723,10 +779,18 @@ table {
   border-spacing: 0; }
 
 a {
+  color: inherit;
   text-decoration: none; }
 
 * {
   box-sizing: border-box; }
+
+img {
+  display: block; }
+
+button, textarea, input {
+  border: none;
+  resize: none; }
 
 @font-face {
   font-family: 'Poppins Bold';
@@ -754,16 +818,24 @@ a {
 
 @font-face {
   font-family: 'Poppins Medium';
-  src: url("Poppins-Medium.eot");
-  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff2") format("woff2"), url("Poppins-Medium.woff") format("woff"), url("Poppins-Medium.ttf") format("truetype"), url("Poppins-Medium.svg#Poppins-Medium") format("svg");
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Poppins SemiBold';
-  src: url("Poppins-SemiBold.eot");
-  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff2") format("woff2"), url("Poppins-SemiBold.woff") format("woff"), url("Poppins-SemiBold.ttf") format("truetype"), url("Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  src: url("../fonts/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
+
+body {
+  background-image: url("../img/60286.png");
+  height: 900px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
