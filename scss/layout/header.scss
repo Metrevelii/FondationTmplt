@@ -5,16 +5,28 @@
 @import '../modules/variables.scss';
 
 
+.header-mn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:999999;
+    background-color: rgba(255, 255, 255, 0.815);
+    // max-height: 80px;
+    // height: 100%;
+}
+
 
 .header-content {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
     flex-wrap: wrap;
+    
 }
 
 .header-content-left {
-    padding: 20px 5px;
+    padding: 5px 5px;
     
 }
 
@@ -24,7 +36,7 @@
 }
 
 .header-menu {
-    padding: 30px 5px;
+    padding: 10px 5px 0 5px;
 }
 
 .header-main-logo {
@@ -39,7 +51,15 @@
 }
 
 .navbar-li {
-    margin-right: 10px;
+    margin-right: 15px;
+    padding-bottom: 37px;
+    &:hover,
+    &:active
+    {
+        .navbar-menu-dropdown {
+            display: block;
+        }
+    }
 }
 
 .navbar-txt {
@@ -50,7 +70,6 @@
     padding: 8px 0;
     text-transform: uppercase;
     border-top: 3px solid transparent;
-    transition: border-top 0.2;
     letter-spacing: 1px;
     font-family: 'FiraGO Bold';
     }
@@ -62,11 +81,12 @@
         border-top: 3px solid $color01-blck;
         color: $color01-blck;
         transition: border-top 0.2s;
+        
     }
 }
 
 .header-switch-btn {
-    padding: 30px 5px;
+    padding: 10px 5px;
 
 
 
@@ -84,20 +104,41 @@
     }
 }
 
+//Dropdown menu
+
+.navbar-menu-dropdown {
+    background-color: $color02-wht;
+    width: 248px;
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 33%;
+}
+
+.navbar-li-dropdown {
+    margin:15px 0 15px 20px;
+    padding: 10px;
+}
 
 
+.navbar-txt-dropdown {
+    &:link,
+    &:visited {
+    font-size: $fontsize03;
+    color: $color04;
+    padding: 8px 0;
+    text-transform: uppercase;
+    border-top: 3px solid transparent;
+    letter-spacing: 1px;
+    font-family: 'Poppins Medium';
+    
+    }
+}
 
-// .navbar-txt {
-//     &:link ,
-//     &:visited {
-//         padding: 14px 0;
-//         color: $color02;
-//         text-decoration: none;
-//         text-transform: uppercase;
-//         font-size: 100%;
-//         border-top: 3px solid transparent;
-//         transition: border-top 0.2s;
-//     }
-// }
-
+.navbar-txt-dropdown {
+    &:hover,
+    &:active {
+        color: $color01-blck;
+    }
+}
 
