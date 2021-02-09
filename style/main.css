@@ -36,10 +36,18 @@ table {
   border-spacing: 0; }
 
 a {
+  color: inherit;
   text-decoration: none; }
 
 * {
   box-sizing: border-box; }
+
+img {
+  display: block; }
+
+button, textarea, input {
+  border: none;
+  resize: none; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -79,10 +87,18 @@ table {
   border-spacing: 0; }
 
 a {
+  color: inherit;
   text-decoration: none; }
 
 * {
   box-sizing: border-box; }
+
+img {
+  display: block; }
+
+button, textarea, input {
+  border: none;
+  resize: none; }
 
 .container {
   max-width: 1220px;
@@ -111,3 +127,11 @@ a {
 .navbar-txt:hover, .navbar-txt:active {
   border-top: 3px solid #006994;
   color: #006994; }
+
+body {
+  background-image: url("../img/60286.png");
+  height: 900px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
