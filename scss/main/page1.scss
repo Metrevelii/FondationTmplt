@@ -9,3 +9,57 @@
 @import './../main/media.scss';
 
 
+.headline-section {
+    margin-top: 25px;
+    
+}
+
+.background-images-section {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: start;
+}
+
+
+
+.alex-img {
+    height: 552px;
+    filter: brightness(35%);
+}
+
+
+
+.vakhtang-img {
+    height: 552px;
+    filter: brightness(35%);
+}
+
+.main-section-heading {
+    position: relative;
+    top: 60px;
+    left: 350px;
+    max-width: 670px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.main-heading-txt {
+    font-size: $fontsize07;
+    color: $color02-wht;
+    line-height: initial;
+    padding: 5px;
+   
+}
+
+.heading-txt-border {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: -100%;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-top: 1px solid $color02-wht;
+}
