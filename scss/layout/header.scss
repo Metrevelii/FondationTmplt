@@ -12,8 +12,7 @@
     width: 100%;
     z-index:999999;
     background-color: rgba(255, 255, 255, 0.815);
-    // max-height: 80px;
-    // height: 100%;
+    
 }
 
 
@@ -22,13 +21,14 @@
     justify-content: space-between;
     margin-top: 15px;
     flex-wrap: wrap;
+    align-items: center;
     
 }
 
-.header-content-left {
-    padding: 5px 5px;
+// .header-content-left {
+//     padding: 5px 5px;
     
-}
+// }
 
 .logo-img {
     max-width: 116px;
@@ -56,7 +56,9 @@
     &:hover,
     &:active
     {
-        .navbar-menu-dropdown {
+        .navbar-menu-dropdown,
+        .navbar-menu-dropdown-first,
+        .navbar-menu-dropdown-third {
             display: block;
         }
     }
@@ -72,6 +74,7 @@
     border-top: 3px solid transparent;
     letter-spacing: 1px;
     font-family: 'FiraGO Bold';
+    transition: all 1s;
     }
 }
 
@@ -80,13 +83,14 @@
     &:active {
         border-top: 3px solid $color01-blck;
         color: $color01-blck;
-        transition: border-top 0.2s;
-        
+        transition: all 0.5s;
+        letter-spacing: 0.5px;
+        font-size: $fontsize03;
     }
 }
 
 .header-switch-btn {
-    padding: 10px 5px;
+    margin-bottom: 30px;
 
 
 
@@ -103,9 +107,22 @@
         font-family: 'Poppins Bold'
     }
 }
-
 //Dropdown menu
+// First Dropdown 
 
+.navbar-menu-dropdown-first {
+    background-color: $color02-wht;
+    width: 248px;
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 25%;
+    list-style: inside;
+}
+
+
+
+// Second Dropdown
 .navbar-menu-dropdown {
     background-color: $color02-wht;
     width: 248px;
@@ -113,11 +130,26 @@
     position: absolute;
     top: 80px;
     left: 33%;
+    list-style: inside;
+}
+
+
+// Third dropdown
+
+.navbar-menu-dropdown-third {
+    background-color: $color02-wht;
+    width: 248px;
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    list-style: inside;
+
 }
 
 .navbar-li-dropdown {
     margin:15px 0 15px 20px;
-    padding: 10px;
+    
 }
 
 
