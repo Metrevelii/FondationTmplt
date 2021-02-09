@@ -8,40 +8,4 @@
 @import './layout/footer.scss';
 @import './../main/media.scss';
 
-.container {
-    max-width: 1220px;
-    width: 100%;
-    padding:0 15px;
-    margin:0 auto;
-}
 
-.main-nav {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 40px 0 0;
-}
-.main-nav-li {
-    margin:0 0 0 30px;
-}
-
-.navbar-txt {
-    &:link ,
-    &:visited {
-        padding: 14px 0;
-        color: $color02;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 100%;
-        border-top: 3px solid transparent;
-        transition: border-top 0.2s;
-    }
-}
-
-.navbar-txt {
-    &:hover,
-    &:active {
-        border-top: 3px solid $color03;
-        color: $color03;
-    }
-}
