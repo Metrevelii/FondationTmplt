@@ -224,7 +224,7 @@ button, textarea, input {
   display: none;
   position: absolute;
   top: 80px;
-  left: 36%;
+  left: 32%;
   list-style: inside; }
 
 .navbar-menu-dropdown {
@@ -233,7 +233,7 @@ button, textarea, input {
   display: none;
   position: absolute;
   top: 80px;
-  left: 41%;
+  left: 38%;
   list-style: inside; }
 
 .navbar-menu-dropdown-third {
@@ -242,7 +242,7 @@ button, textarea, input {
   display: none;
   position: absolute;
   top: 80px;
-  left: 46%;
+  left: 45%;
   list-style: inside; }
 
 .navbar-li-dropdown {
