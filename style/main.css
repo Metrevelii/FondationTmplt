@@ -205,11 +205,10 @@ button, textarea, input {
   border-top: 3px solid #040F16;
   color: #040F16;
   transition: all 0.5s;
-  letter-spacing: 0.5px;
-  font-size: 16px; }
+  letter-spacing: 0px; }
 
 .header-switch-btn {
-  margin-bottom: 30px; }
+  margin-bottom: 5px; }
   .header-switch-btn .english-btn {
     font-size: 14px;
     color: #707070;
@@ -261,39 +260,22 @@ button, textarea, input {
 .navbar-txt-dropdown:hover, .navbar-txt-dropdown:active {
   color: #040F16; }
 
-.section-01 {
-  background-image: url("../images/body-bg-img.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1200px; }
-  .section-01 .banner-content {
-    margin-top: 400px; }
-
 body {
   margin: 80px 0 0; }
 
-.headline-section {
-  margin-top: 25px; }
-
-.background-images-section {
-  display: flex;
+.background-img-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.267)), url(../../images/background-portraits.png);
+  height: 552px;
   width: 100%;
-  position: absolute;
-  justify-content: start; }
-
-.alex-img {
-  height: 552px;
-  filter: brightness(35%); }
-
-.vakhtang-img {
-  height: 552px;
-  filter: brightness(35%); }
+  background-position: center;
+  background-size: cover;
+  background-attachment: local;
+  position: relative; }
 
 .main-section-heading {
-  position: relative;
-  top: 60px;
-  left: 350px;
+  position: absolute;
+  top: 5%;
+  left: 25%;
   max-width: 670px;
   width: 100%;
   text-align: center; }
@@ -319,6 +301,7 @@ body {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
+
 .section-01 {
   background-image: url("../images/body-bg-img.png");
   background-position: center;

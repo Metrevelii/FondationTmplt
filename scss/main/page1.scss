@@ -13,46 +13,22 @@
 body {
     margin: 80px 0 0;
 }
-
-.headline-section {
-    margin-top: 25px;
-    
-}
-
-.background-images-section {
-    display: flex;
+.background-img-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.267)),url(../../images/background-portraits.png);
+    height: 552px;
     width: 100%;
-    position: absolute;
-    justify-content: start;
-}
-
-
-
-
-// .background-img-section {
-//     background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.267)),url(../../images/background-portraits.png);
-//     height: 552px;
-//     background-position: center;
-//     background-size: cover;
-//     background-attachment:local;
+    background-position: center;
+    background-size: cover;
+    background-attachment:local;
+    position: relative;
     
-// }
-.alex-img {
-    height: 552px;
-    filter: brightness(35%);
 }
 
-
-
-.vakhtang-img {
-    height: 552px;
-    filter: brightness(35%);
-}
 
 .main-section-heading {
-    position: relative;
-    top: 60px;
-    left: 350px;
+    position: absolute;
+    top: 5%;
+    left: 25%;
     max-width: 670px;
     width: 100%;
     text-align: center;
