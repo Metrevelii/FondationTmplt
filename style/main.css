@@ -42,8 +42,9 @@ a {
 * {
   box-sizing: border-box; }
 
-button, textarea, input {
-  border: none;
+button, textarea, input:focus {
+  outline: 0;
+  border: 0;
   resize: none; }
 
 @font-face {
@@ -142,7 +143,7 @@ button, textarea, input {
   font-style: normal;
   font-display: swap; }
 
-.box-container {
+.box-container, .section-01 .div-color .banner-content {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
@@ -302,11 +303,35 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1200px; }
-  .section-01 .banner-content {
-    margin-top: 400px; }
+  height: 900px;
+  padding-top: 59px; }
+  .section-01 .div-color {
+    background: #EFEFF6; }
+    .section-01 .div-color .banner-content .banner-title {
+      padding-top: 33px;
+      padding-bottom: 35px;
+      font-family: 'FiraGO Bold';
+      font-size: 34px;
+      color: #040F16; }
+    .section-01 .div-color .banner-content .banner-par {
+      font-family: 'FiraGO Regular';
+      font-weight: lighter;
+      color: #040F16;
+      padding-bottom: 38px;
+      line-height: 30px;
+      font-size: 14px; }
+    .section-01 .div-color .banner-content .firs-btn {
+      max-width: 131px;
+      height: 24px;
+      font-family: 'FiraGO Regular';
+      padding-bottom: 46px;
+      background: transparent; }
+      .section-01 .div-color .banner-content .firs-btn:hover {
+        width: 200px; }
+    .section-01 .div-color .hr-first {
+      color: #040F16; }
 
-.box-container {
+.box-container, .section-01 .div-color .banner-content {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
