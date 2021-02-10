@@ -1,12 +1,12 @@
-@import './../basic/reset.scss';
-@import './../basic/fonts.scss';
-@import './../modules/classes.scss';
-@import './../modules/variables.scss';
-@import './../main/keyframes.scss';
-@import './layout/header.scss';
-@import './layout/navigation.scss';
-@import './layout/footer.scss';
-@import './../main/media.scss';
+// @import './../basic/reset.scss';
+// @import './../basic/fonts.scss';
+// @import './../modules/classes.scss';
+// @import './../modules/variables.scss';
+// @import './../main/keyframes.scss';
+// @import './layout/header.scss';
+// @import './layout/navigation.scss';
+// @import './layout/footer.scss';
+// @import './../main/media.scss';
 
 
 body {
@@ -27,6 +27,15 @@ body {
 
 
 
+
+// .background-img-section {
+//     background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.267)),url(../../images/background-portraits.png);
+//     height: 552px;
+//     background-position: center;
+//     background-size: cover;
+//     background-attachment:local;
+    
+// }
 .alex-img {
     height: 552px;
     filter: brightness(35%);
@@ -48,6 +57,9 @@ body {
     text-align: center;
     
 }
+
+
+
 
 .main-heading-txt {
     font-size: $fontsize07;
