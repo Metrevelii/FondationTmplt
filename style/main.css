@@ -147,11 +147,6 @@ button, textarea, input {
   width: 100%;
   margin: 0 auto; }
 
-.box-container {
-  max-width: 1010px;
-  width: 100%;
-  margin: 0 auto; }
-
 .header-mn {
   position: fixed;
   top: 0;
@@ -310,3 +305,8 @@ body {
   height: 1200px; }
   .section-01 .banner-content {
     margin-top: 400px; }
+
+.box-container {
+  max-width: 1010px;
+  width: 100%;
+  margin: 0 auto; }
