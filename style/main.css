@@ -261,6 +261,15 @@ button, textarea, input {
 .navbar-txt-dropdown:hover, .navbar-txt-dropdown:active {
   color: #040F16; }
 
+.section-01 {
+  background-image: url("../images/body-bg-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px; }
+  .section-01 .banner-content {
+    margin-top: 400px; }
+
 body {
   margin: 80px 0 0; }
 
@@ -310,7 +319,6 @@ body {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
-
 .section-01 {
   background-image: url("../images/body-bg-img.png");
   background-position: center;
