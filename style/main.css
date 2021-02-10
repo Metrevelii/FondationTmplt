@@ -147,6 +147,11 @@ button, textarea, input {
   width: 100%;
   margin: 0 auto; }
 
+.box-container {
+  max-width: 1010px;
+  width: 100%;
+  margin: 0 auto; }
+
 .header-mn {
   position: fixed;
   top: 0;
@@ -296,11 +301,6 @@ body {
   border-style: inset;
   border-width: 1px;
   border-top: 1px solid #FBFBFF; }
-
-.box-container {
-  max-width: 1010px;
-  width: 100%;
-  margin: 0 auto; }
 
 .section-01 {
   background-image: url("../images/body-bg-img.png");
