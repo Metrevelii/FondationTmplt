@@ -185,7 +185,8 @@ button, textarea, input:focus {
 
 .navbar-li {
   margin-right: 15px;
-  padding-bottom: 37px; }
+  padding-bottom: 37px;
+  position: relative; }
   .navbar-li:hover .navbar-menu-dropdown,
   .navbar-li:hover .navbar-menu-dropdown-first,
   .navbar-li:hover .navbar-menu-dropdown-third, .navbar-li:active .navbar-menu-dropdown,
@@ -220,31 +221,13 @@ button, textarea, input:focus {
     color: #040F16;
     font-family: 'Poppins Bold'; }
 
-.navbar-menu-dropdown-first {
-  background-color: #FBFBFF;
-  width: 248px;
-  display: none;
-  position: absolute;
-  top: 80px;
-  left: 32%;
-  list-style: inside; }
-
 .navbar-menu-dropdown {
   background-color: #FBFBFF;
   width: 248px;
   display: none;
   position: absolute;
-  top: 80px;
-  left: 38%;
-  list-style: inside; }
-
-.navbar-menu-dropdown-third {
-  background-color: #FBFBFF;
-  width: 248px;
-  display: none;
-  position: absolute;
-  top: 80px;
-  left: 45%;
+  top: 55px;
+  left: 0;
   list-style: inside; }
 
 .navbar-li-dropdown {

@@ -48,6 +48,7 @@
 .navbar-li {
     margin-right: 15px;
     padding-bottom: 37px;
+    position: relative;
     &:hover,
     &:active
     {
@@ -105,42 +106,18 @@
 //Dropdown menu
 // First Dropdown 
 
-.navbar-menu-dropdown-first {
-    background-color: $color02-wht;
-    width: 248px;
-    display: none;
-    position: absolute;
-    top: 80px;
-    left: 32%;
-    list-style: inside;
-}
-
-
-
-// Second Dropdown
 .navbar-menu-dropdown {
     background-color: $color02-wht;
     width: 248px;
     display: none;
     position: absolute;
-    top: 80px;
-    left: 38%;
+    top: 55px;
+    left: 0;
     list-style: inside;
 }
 
 
-// Third dropdown
 
-.navbar-menu-dropdown-third {
-    background-color: $color02-wht;
-    width: 248px;
-    display: none;
-    position: absolute;
-    top: 80px;
-    left: 45%;
-    list-style: inside;
-
-}
 
 .navbar-li-dropdown {
     margin:15px 0 15px 20px;
