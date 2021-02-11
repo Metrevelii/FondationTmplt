@@ -3,8 +3,42 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1200px;
-    .banner-content{
-        margin-top: 400px;
+    height:900px;
+    padding-top: 59px;
+   
+    .div-color{
+        background: #EFEFF6;
+        .banner-content{
+            @extend %container3;
+            .banner-title{
+                padding-top: 33px;
+                padding-bottom: 35px;
+                font-family: 'FiraGO Bold';
+                font-size: 34px;
+                color: $color01-blck;
+            }
+            .banner-par{
+                font-family: 'FiraGO Regular';
+                font-weight: lighter;
+                color: #040F16;
+                padding-bottom: 38px;
+                line-height: 30px;
+                font-size: 14px;
+
+            }
+            .firs-btn{
+                max-width: 131px;
+                height: 24px;
+                font-family: 'FiraGO Regular';
+                padding-bottom: 46px;
+                background: transparent;
+                text-decoration: underline;
+                &:hover{
+                    width: 200px;
+                    
+                }
+            }
+        }
     }
+   
 }
