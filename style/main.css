@@ -325,10 +325,11 @@ body {
       height: 24px;
       font-family: 'FiraGO Regular';
       padding-bottom: 46px;
-      background: transparent;
-      text-decoration: underline; }
+      background: transparent; }
       .section-01 .div-color .banner-content .firs-btn:hover {
         width: 200px; }
+    .section-01 .div-color .hr-first {
+      color: #040F16; }
 
 .box-container, .section-01 .div-color .banner-content {
   max-width: 1010px;
