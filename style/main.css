@@ -143,7 +143,7 @@ button, textarea, input:focus {
   font-style: normal;
   font-display: swap; }
 
-.box-container, .section-01 .div-color .banner-content {
+.box-container, .section-01 .div-color .banner-content, .section-01 .title-div, .section-01 .div-colo-01 .banner-content-01 {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
@@ -318,9 +318,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  padding-top: 59px; }
+  padding-top: 59px;
+  padding-bottom: 70px; }
   .section-01 .div-color {
-    background: #EFEFF6; }
+    background: #EFEFF6;
+    padding-bottom: 45px; }
     .section-01 .div-color .banner-content .banner-title {
       padding-top: 33px;
       padding-bottom: 35px;
@@ -334,18 +336,90 @@ body {
       padding-bottom: 38px;
       line-height: 30px;
       font-size: 14px; }
+      .section-01 .div-color .banner-content .banner-par .text-sec {
+        display: none; }
     .section-01 .div-color .banner-content .firs-btn {
-      max-width: 131px;
-      height: 24px;
-      font-family: 'FiraGO Regular';
-      padding-bottom: 46px;
-      background: transparent; }
+      display: flex;
+      align-items: flex-start;
+      max-width: 200px;
+      height: 20px;
+      font-family: 'FiraGO Bold';
+      background: transparent;
+      color: #040F16;
+      font-size: 18px;
+      transition: all 0.1s linear 0.1s; }
       .section-01 .div-color .banner-content .firs-btn:hover {
-        width: 200px; }
-    .section-01 .div-color .hr-first {
-      color: #040F16; }
+        padding-left: 30px;
+        max-width: 400px; }
+      .section-01 .div-color .banner-content .firs-btn .fa-caret-right {
+        padding-top: 7px; }
+      .section-01 .div-color .banner-content .firs-btn .line {
+        background: black;
+        width: 60px; }
+      .section-01 .div-color .banner-content .firs-btn:hover {
+        max-width: 300px; }
+    .section-01 .div-color .line-02 {
+      background-color: black;
+      width: 27%;
+      height: 1px;
+      display: block; }
+  .section-01 .title-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 37px;
+    padding-bottom: 63px; }
+    .section-01 .title-div .title-ul {
+      display: flex; }
+      .section-01 .title-div .title-ul .title-li {
+        margin-right: 121px;
+        font-family: 'FiraGO Regular';
+        font-size: 40px;
+        color: #040F16;
+        text-decoration: underline; }
+  .section-01 .div-colo-01 {
+    background: #EFEFF6;
+    padding-bottom: 45px; }
+    .section-01 .div-colo-01 .banner-content-01 .title-01 {
+      font-family: 'FiraGO Bold';
+      color: #040F16;
+      padding-top: 33px;
+      margin-bottom: 35px;
+      font-size: 34px; }
+    .section-01 .div-colo-01 .banner-content-01 .title-p {
+      font-family: 'FiraGO Regular';
+      font-weight: lighter;
+      color: #040F16;
+      padding-bottom: 38px;
+      line-height: 30px;
+      font-size: 14px; }
+      .section-01 .div-colo-01 .banner-content-01 .title-p .tex-none {
+        display: none; }
+    .section-01 .div-colo-01 .banner-content-01 .btn-sec {
+      display: flex;
+      align-items: flex-start;
+      max-width: 200px;
+      height: 20px;
+      font-family: 'FiraGO Bold';
+      background: transparent;
+      color: #040F16;
+      font-size: 18px;
+      transition: all 0.1s linear 0.1s; }
+      .section-01 .div-colo-01 .banner-content-01 .btn-sec:hover {
+        padding-left: 30px;
+        max-width: 400px; }
+      .section-01 .div-colo-01 .banner-content-01 .btn-sec .fa-caret-right {
+        padding-top: 7px; }
+      .section-01 .div-colo-01 .banner-content-01 .btn-sec .line {
+        background: black;
+        width: 60px; }
+    .section-01 .div-colo-01 .line-02 {
+      background-color: black;
+      width: 27%;
+      height: 1px;
+      display: block; }
 
-.box-container, .section-01 .div-color .banner-content {
+.box-container, .section-01 .div-color .banner-content, .section-01 .title-div, .section-01 .div-colo-01 .banner-content-01 {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
