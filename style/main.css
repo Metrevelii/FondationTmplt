@@ -247,7 +247,7 @@ button, textarea, input:focus {
 
 .footer-main {
   background-color: #040F16;
-  padding: 25px 10px 75px 10px; }
+  padding: 0 10px 0 10px; }
 
 .footer-content {
   display: flex;
@@ -257,7 +257,8 @@ button, textarea, input:focus {
 .footer--box {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding: 25px 0px 75px 0px; }
 
 .footer-img {
   max-width: 45px;
@@ -278,14 +279,28 @@ button, textarea, input:focus {
 body {
   margin: 80px 0 0; }
 
-.background-img-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.267)), url(../images/background-portraits.png);
-  height: 552px;
+.background-images-section {
+  display: inline-flex;
+  position: relative;
+  margin: 0;
+  padding: 0; }
+
+.bg-images-left,
+.bg-images-right {
+  display: block;
   width: 100%;
-  background-position: center;
-  background-size: cover;
-  background-attachment: local;
-  position: relative; }
+  height: 552px;
+  margin: 0;
+  padding: 0; }
+
+.vakhtang-img,
+.alex-img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  filter: brightness(50%); }
 
 .main-section-heading {
   position: absolute;
@@ -423,3 +438,20 @@ body {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
+
+@media (max-width: 767.98px) {
+  .header-content {
+    display: none; }
+  .background-images-section {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0; }
+  .bg-images-left,
+  .bg-images-right {
+    margin: 0;
+    padding: 0;
+    height: 100%; }
+  .main-section-heading {
+    display: none; } }
