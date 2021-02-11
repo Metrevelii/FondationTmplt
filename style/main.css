@@ -338,7 +338,8 @@ body {
   padding-top: 59px;
   padding-bottom: 70px; }
   .section-01 .div-color {
-    background: #EFEFF6; }
+    background: #EFEFF6;
+    padding-bottom: 45px; }
     .section-01 .div-color .banner-content .banner-title {
       padding-top: 33px;
       padding-bottom: 35px;
@@ -352,16 +353,33 @@ body {
       padding-bottom: 38px;
       line-height: 30px;
       font-size: 14px; }
+      .section-01 .div-color .banner-content .banner-par .text-sec {
+        display: none; }
     .section-01 .div-color .banner-content .firs-btn {
-      max-width: 131px;
-      height: 24px;
+      display: flex;
+      align-items: flex-start;
+      max-width: 200px;
+      height: 20px;
       font-family: 'FiraGO Bold';
-      margin-bottom: 45px;
       background: transparent;
       color: #040F16;
-      font-size: 18px; }
+      font-size: 18px;
+      transition: all 0.1s linear 0.1s; }
       .section-01 .div-color .banner-content .firs-btn:hover {
-        width: 200px; }
+        padding-left: 30px;
+        max-width: 400px; }
+      .section-01 .div-color .banner-content .firs-btn .fa-caret-right {
+        padding-top: 7px; }
+      .section-01 .div-color .banner-content .firs-btn .line {
+        background: black;
+        width: 60px; }
+      .section-01 .div-color .banner-content .firs-btn:hover {
+        max-width: 300px; }
+    .section-01 .div-color .line-02 {
+      background-color: black;
+      width: 27%;
+      height: 1px;
+      display: block; }
   .section-01 .title-div {
     display: flex;
     justify-content: flex-end;
@@ -378,7 +396,7 @@ body {
         text-decoration: underline; }
   .section-01 .div-colo-01 {
     background: #EFEFF6;
-    margin-bottom: 70px; }
+    padding-bottom: 45px; }
     .section-01 .div-colo-01 .banner-content-01 .title-01 {
       font-family: 'FiraGO Bold';
       color: #040F16;
@@ -392,17 +410,31 @@ body {
       padding-bottom: 38px;
       line-height: 30px;
       font-size: 14px; }
+      .section-01 .div-colo-01 .banner-content-01 .title-p .tex-none {
+        display: none; }
     .section-01 .div-colo-01 .banner-content-01 .btn-sec {
-      margin-bottom: 46px;
-      max-width: 131px;
-      height: 24px;
+      display: flex;
+      align-items: flex-start;
+      max-width: 200px;
+      height: 20px;
       font-family: 'FiraGO Bold';
-      margin-bottom: 46px;
       background: transparent;
       color: #040F16;
-      font-size: 18px; }
+      font-size: 18px;
+      transition: all 0.1s linear 0.1s; }
       .section-01 .div-colo-01 .banner-content-01 .btn-sec:hover {
-        width: 200px; }
+        padding-left: 30px;
+        max-width: 400px; }
+      .section-01 .div-colo-01 .banner-content-01 .btn-sec .fa-caret-right {
+        padding-top: 7px; }
+      .section-01 .div-colo-01 .banner-content-01 .btn-sec .line {
+        background: black;
+        width: 60px; }
+    .section-01 .div-colo-01 .line-02 {
+      background-color: black;
+      width: 27%;
+      height: 1px;
+      display: block; }
 
 .box-container, .section-01 .div-color .banner-content, .section-01 .title-div, .section-01 .div-colo-01 .banner-content-01 {
   max-width: 1010px;

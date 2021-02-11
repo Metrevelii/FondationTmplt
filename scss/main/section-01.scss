@@ -8,6 +8,7 @@
     padding-bottom: 70px;
     .div-color{
         background: #EFEFF6;
+        padding-bottom: 45px;
         .banner-content{
             @extend %container3;
             .banner-title{
@@ -24,23 +25,45 @@
                 padding-bottom: 38px;
                 line-height: 30px;
                 font-size: 14px;
+                .text-sec{
+                    display: none;
+                }
 
             }
             .firs-btn{
-                max-width: 131px;
-                height: 24px;
+                display: flex;
+                align-items: flex-start;
+                max-width: 200px;
+                height: 20px;
                 font-family: 'FiraGO Bold';
-                margin-bottom: 45px;
                 background: transparent;
                 color: #040F16;
                 font-size: 18px;
+                transition: all 0.1s linear 0.1s;
                 &:hover{
-                    width: 200px;
-                    
+                    padding-left: 30px;
+                    max-width: 400px;
+                   
                 }
+                .fa-caret-right{
+                    padding-top: 7px;
+                }
+                .line{
+                    background: black;
+                    width: 60px;
+                   
+                }
+               &:hover{
+                   max-width: 300px;
+               }
             }
         }
-        
+        .line-02{
+                    background-color: black;
+                    width: 27%;
+                    height: 1px;
+                    display: block;
+        }
     }
     .title-div{
         @extend %container3;
@@ -62,7 +85,7 @@
     }
    .div-colo-01{
         background: #EFEFF6;
-        margin-bottom: 70px;
+        padding-bottom: 45px;
         .banner-content-01{
             @extend %container3;
             .title-01{
@@ -79,21 +102,41 @@
                 padding-bottom: 38px;
                 line-height: 30px;
                 font-size: 14px;
+                .tex-none{
+                    display: none;
+                }
             }
             .btn-sec{
-                margin-bottom: 46px;
-                max-width: 131px;
-                height: 24px;
+                display: flex;
+                align-items: flex-start;
+                max-width: 200px;
+                height: 20px;
                 font-family: 'FiraGO Bold';
-                margin-bottom: 46px;
                 background: transparent;
                 color: #040F16;
                 font-size: 18px;
+                transition: all 0.1s linear 0.1s;
                 &:hover{
-                    width: 200px;
-                    
+                    padding-left: 30px;
+                    max-width: 400px;
+                   
+                }
+                .fa-caret-right{
+                    padding-top: 7px;
+                }
+                .line{
+                    background: black;
+                    width: 60px;
+                   
                 }
             }
+        }
+        .line-02{
+            background-color: black;
+            width: 27%;
+            height: 1px;
+            display: block;
+           
         }
    }
 }
