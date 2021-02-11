@@ -143,7 +143,7 @@ button, textarea, input:focus {
   font-style: normal;
   font-display: swap; }
 
-.box-container, .section-01 .div-color .banner-content {
+.box-container, .section-01 .div-color .banner-content, .section-01 .title-div, .section-01 .div-colo-01 .banner-content-01 {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
@@ -335,7 +335,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  padding-top: 59px; }
+  padding-top: 59px;
+  padding-bottom: 70px; }
   .section-01 .div-color {
     background: #EFEFF6; }
     .section-01 .div-color .banner-content .banner-title {
@@ -354,15 +355,56 @@ body {
     .section-01 .div-color .banner-content .firs-btn {
       max-width: 131px;
       height: 24px;
-      font-family: 'FiraGO Regular';
-      padding-bottom: 46px;
-      background: transparent; }
+      font-family: 'FiraGO Bold';
+      margin-bottom: 45px;
+      background: transparent;
+      color: #040F16;
+      font-size: 18px; }
       .section-01 .div-color .banner-content .firs-btn:hover {
         width: 200px; }
-    .section-01 .div-color .hr-first {
-      color: #040F16; }
+  .section-01 .title-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 37px;
+    padding-bottom: 63px; }
+    .section-01 .title-div .title-ul {
+      display: flex; }
+      .section-01 .title-div .title-ul .title-li {
+        margin-right: 121px;
+        font-family: 'FiraGO Regular';
+        font-size: 40px;
+        color: #040F16;
+        text-decoration: underline; }
+  .section-01 .div-colo-01 {
+    background: #EFEFF6;
+    margin-bottom: 70px; }
+    .section-01 .div-colo-01 .banner-content-01 .title-01 {
+      font-family: 'FiraGO Bold';
+      color: #040F16;
+      padding-top: 33px;
+      margin-bottom: 35px;
+      font-size: 34px; }
+    .section-01 .div-colo-01 .banner-content-01 .title-p {
+      font-family: 'FiraGO Regular';
+      font-weight: lighter;
+      color: #040F16;
+      padding-bottom: 38px;
+      line-height: 30px;
+      font-size: 14px; }
+    .section-01 .div-colo-01 .banner-content-01 .btn-sec {
+      margin-bottom: 46px;
+      max-width: 131px;
+      height: 24px;
+      font-family: 'FiraGO Bold';
+      margin-bottom: 46px;
+      background: transparent;
+      color: #040F16;
+      font-size: 18px; }
+      .section-01 .div-colo-01 .banner-content-01 .btn-sec:hover {
+        width: 200px; }
 
-.box-container, .section-01 .div-color .banner-content {
+.box-container, .section-01 .div-color .banner-content, .section-01 .title-div, .section-01 .div-colo-01 .banner-content-01 {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }

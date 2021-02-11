@@ -5,7 +5,7 @@
     background-size: cover;
     height:100%;
     padding-top: 59px;
-   
+    padding-bottom: 70px;
     .div-color{
         background: #EFEFF6;
         .banner-content{
@@ -29,18 +29,71 @@
             .firs-btn{
                 max-width: 131px;
                 height: 24px;
-                font-family: 'FiraGO Regular';
-                padding-bottom: 46px;
+                font-family: 'FiraGO Bold';
+                margin-bottom: 45px;
                 background: transparent;
+                color: #040F16;
+                font-size: 18px;
                 &:hover{
                     width: 200px;
                     
                 }
             }
         }
-        .hr-first{
-            color: #040F16;
-        }
+        
     }
-   
+    .title-div{
+        @extend %container3;
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        padding-top: 37px;
+        padding-bottom: 63px;
+        .title-ul{
+            display: flex;
+            .title-li{
+                margin-right: 121px;
+                font-family: 'FiraGO Regular';
+                font-size: 40px;
+                color: $color01-blck;
+                text-decoration: underline;
+            }
+        }   
+    }
+   .div-colo-01{
+        background: #EFEFF6;
+        margin-bottom: 70px;
+        .banner-content-01{
+            @extend %container3;
+            .title-01{
+                font-family: 'FiraGO Bold';
+                color: $color01-blck;
+                padding-top: 33px;
+                margin-bottom: 35px;
+                font-size: 34px;
+            }
+            .title-p{
+                font-family: 'FiraGO Regular';
+                font-weight: lighter;
+                color: #040F16;
+                padding-bottom: 38px;
+                line-height: 30px;
+                font-size: 14px;
+            }
+            .btn-sec{
+                margin-bottom: 46px;
+                max-width: 131px;
+                height: 24px;
+                font-family: 'FiraGO Bold';
+                margin-bottom: 46px;
+                background: transparent;
+                color: #040F16;
+                font-size: 18px;
+                &:hover{
+                    width: 200px;
+                    
+                }
+            }
+        }
+   }
 }
