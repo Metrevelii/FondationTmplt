@@ -294,7 +294,7 @@ section {
   padding-bottom: 50px; }
 
 .background-images-section {
-  display: inline-flex;
+  display: flex;
   position: relative;
   margin: 0;
   padding: 0; }
