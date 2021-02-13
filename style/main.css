@@ -39,6 +39,10 @@ a {
   color: inherit;
   text-decoration: none; }
 
+a:hover {
+  color: #0056b3;
+  text-decoration: none; }
+
 * {
   box-sizing: border-box; }
 
@@ -143,7 +147,7 @@ button, textarea, input:focus {
   font-style: normal;
   font-display: swap; }
 
-.box-container, .section-01 .div-color .banner-content, .section-01 .title-div, .section-01 .div-colo-01 .banner-content-01 {
+.box-container {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
@@ -277,10 +281,20 @@ button, textarea, input:focus {
   margin: 30px 0 0; }
 
 body {
-  margin: 80px 0 0; }
+  margin: 80px 0 0;
+  width: 100%; }
+
+section {
+  background-image: url("../images/body-bg-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  padding-bottom: 50px; }
 
 .background-images-section {
-  display: inline-flex;
+  display: flex;
   position: relative;
   margin: 0;
   padding: 0; }
@@ -327,119 +341,114 @@ body {
   border-width: 1px;
   border-top: 1px solid #FBFBFF; }
 
-.section-01 {
-  background-image: url("../images/body-bg-img.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  padding-top: 59px;
-  padding-bottom: 70px; }
-  .section-01 .div-color {
-    background: #EFEFF6;
-    padding-bottom: 45px; }
-    .section-01 .div-color .banner-content .banner-title {
-      padding-top: 33px;
-      padding-bottom: 35px;
-      font-family: 'FiraGO Bold';
-      font-size: 34px;
-      color: #040F16; }
-    .section-01 .div-color .banner-content .banner-par {
-      font-family: 'FiraGO Regular';
-      font-weight: lighter;
-      color: #040F16;
-      padding-bottom: 38px;
-      line-height: 30px;
-      font-size: 14px; }
-      .section-01 .div-color .banner-content .banner-par .text-sec {
-        display: none; }
-    .section-01 .div-color .banner-content .firs-btn {
-      display: flex;
-      align-items: flex-start;
-      max-width: 200px;
-      height: 20px;
-      font-family: 'FiraGO Bold';
-      background: transparent;
-      color: #040F16;
-      font-size: 18px;
-      transition: all 0.1s linear 0.1s; }
-      .section-01 .div-color .banner-content .firs-btn:hover {
-        padding-left: 30px;
-        max-width: 400px; }
-      .section-01 .div-color .banner-content .firs-btn .fa-caret-right {
-        padding-top: 7px; }
-      .section-01 .div-color .banner-content .firs-btn .line {
-        background: black;
-        width: 60px; }
-      .section-01 .div-color .banner-content .firs-btn:hover {
-        max-width: 300px; }
-    .section-01 .div-color .line-02 {
-      background-color: black;
-      width: 27%;
-      height: 1px;
-      display: block; }
-  .section-01 .title-div {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-top: 37px;
-    padding-bottom: 63px; }
-    .section-01 .title-div .title-ul {
-      display: flex; }
-      .section-01 .title-div .title-ul .title-li {
-        margin-right: 121px;
-        font-family: 'FiraGO Regular';
-        font-size: 40px;
-        color: #040F16;
-        text-decoration: underline; }
-  .section-01 .div-colo-01 {
-    background: #EFEFF6;
-    padding-bottom: 45px; }
-    .section-01 .div-colo-01 .banner-content-01 .title-01 {
-      font-family: 'FiraGO Bold';
-      color: #040F16;
-      padding-top: 33px;
-      margin-bottom: 35px;
-      font-size: 34px; }
-    .section-01 .div-colo-01 .banner-content-01 .title-p {
-      font-family: 'FiraGO Regular';
-      font-weight: lighter;
-      color: #040F16;
-      padding-bottom: 38px;
-      line-height: 30px;
-      font-size: 14px; }
-      .section-01 .div-colo-01 .banner-content-01 .title-p .tex-none {
-        display: none; }
-    .section-01 .div-colo-01 .banner-content-01 .btn-sec {
-      display: flex;
-      align-items: flex-start;
-      max-width: 200px;
-      height: 20px;
-      font-family: 'FiraGO Bold';
-      background: transparent;
-      color: #040F16;
-      font-size: 18px;
-      transition: all 0.1s linear 0.1s; }
-      .section-01 .div-colo-01 .banner-content-01 .btn-sec:hover {
-        padding-left: 30px;
-        max-width: 400px; }
-      .section-01 .div-colo-01 .banner-content-01 .btn-sec .fa-caret-right {
-        padding-top: 7px; }
-      .section-01 .div-colo-01 .banner-content-01 .btn-sec .line {
-        background: black;
-        width: 60px; }
-    .section-01 .div-colo-01 .line-02 {
-      background-color: black;
-      width: 27%;
-      height: 1px;
-      display: block; }
+.first-article-box {
+  background-color: #EFEFF6;
+  padding: 10px;
+  position: relative; }
 
-.box-container, .section-01 .div-color .banner-content, .section-01 .title-div, .section-01 .div-colo-01 .banner-content-01 {
+.first-article-line {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #040F16;
+  position: absolute;
+  width: 220px;
+  left: 0;
+  top: 83%; }
+
+.first-article-line-two {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #040F16;
+  position: absolute;
+  width: 60px;
+  left: 101px;
+  top: 5px; }
+
+.fa-caret-right {
+  position: absolute;
+  top: 5px;
+  left: 161px; }
+
+.first-article-box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+.article-headline {
+  margin: 33px 0 0; }
+
+.article-headline-txt {
+  font-size: 24px;
+  font-family: 'FiraGO Bold'; }
+
+.article-main-para {
+  height: 173px;
+  margin-top: 35px; }
+
+.article-main-txt {
+  font-size: 14px;
+  font-family: 'FiraGO Regular';
+  letter-spacing: 0.5px; }
+
+.article-btn {
+  margin: 40px 0 45px 0;
+  position: relative; }
+
+.article-main-btn {
+  font-family: 'FiraGO Bold';
+  font-size: 18px;
+  transition: all .5s; }
+  .article-main-btn:hover {
+    padding-left: 30px;
+    max-width: 400px;
+    transition: all .5s; }
+    .article-main-btn:hover .first-article-line-two {
+      display: block;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      margin-left: auto;
+      margin-right: auto;
+      border-top: 1px solid #040F16;
+      position: absolute;
+      width: 60px;
+      left: 131px;
+      top: 5px; }
+    .article-main-btn:hover .fa-caret-right {
+      position: absolute;
+      top: 5px;
+      left: 191px; }
+
+.first-article-nav {
+  margin: 50px auto 63px auto;
+  max-width: 1010px;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent; }
+
+.first-article-navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.first-article-navbar-li {
+  text-decoration: underline; }
+
+.first-article-navbar-txt {
+  font-family: 'FiraGO Regular';
+  font-size: 40px; }
+
+.box-container {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
 
-@media (max-width: 767.98px) {
+@media (max-width: 700.98px) {
   .header-content {
     display: none; }
   .background-images-section {
@@ -454,4 +463,46 @@ body {
     padding: 0;
     height: 100%; }
   .main-section-heading {
-    display: none; } }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 670px;
+    width: 100%; }
+  .main-heading-txt {
+    font-size: 30px; }
+  .heading-txt-border {
+    display: none; }
+  .first-article-box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media (max-width: 991.98px) {
+  .header-content {
+    display: none; }
+  .background-images-section {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0; }
+  .bg-images-left,
+  .bg-images-right {
+    margin: 0;
+    padding: 0;
+    height: 100%; }
+  .main-section-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 670px;
+    width: 100%; }
+  .main-heading-txt {
+    font-size: 30px; }
+  .heading-txt-border {
+    margin-top: 1.5rem; } }
+
+@media (max-width: 575.98px) {
+  .main-heading-txt {
+    font-size: 24px; } }
