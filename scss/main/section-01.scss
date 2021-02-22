@@ -15,7 +15,7 @@
     margin-right: auto;
     border-top: 1px solid $color01-blck;
     position: absolute;
-    width: 220px;
+    width: 490px;
     left: 0;
     top: 83%;
 }
@@ -130,38 +130,38 @@
     font-size: $fontsize07;
 }
 
-// .icon-arrow {
-//     width: 100px;
-//     height: 4px;
-//     background-color: #000;
-//     border-radius: 4px;
-//     position: relative;
-//     top: 50px;
-//     &::after {
-//         content: "";
-//         display: inline-block;
-//         border-radius: 4px;
-//         width: 40px;
-//         height: 4px;
-//         background-color: #000;
-//         transform: rotate(45deg);
-//         position: absolute;
-//         right: -6px;
-//         bottom: 13px;
-//     }
-//     &::before {
-//         content: "";
-//         display: inline-block;
-//         border-radius: 4px;
-//         width: 40px;
-//         height: 4px;
-//         background-color: #000;
-//         transform: rotate(-45deg);
-//         position: absolute;
-//         right: -6px;
-//         bottom: -13px;
-//     }   
-// }
+.icon-arrow {
+    width: 100px;
+    height: 4px;
+    background-color: #000;
+    border-radius: 4px;
+    position: relative;
+    top: 50px;
+    &::after {
+        content: "";
+        display: inline-block;
+        border-radius: 4px;
+        width: 40px;
+        height: 4px;
+        background-color: #000;
+        transform: rotate(45deg);
+        position: absolute;
+        right: -6px;
+        bottom: 13px;
+    }
+    &::before {
+        content: "";
+        display: inline-block;
+        border-radius: 4px;
+        width: 40px;
+        height: 4px;
+        background-color: #000;
+        transform: rotate(-45deg);
+        position: absolute;
+        right: -6px;
+        bottom: -13px;
+    }   
+}
 
 
 
@@ -170,138 +170,3 @@
 
 
 
-
-//         .div-color{
-//         background: #EFEFF6;
-//         padding-bottom: 45px;
-//         .banner-content{
-//             @extend %container3;
-//             .banner-title{
-//                 padding-top: 33px;
-//                 padding-bottom: 35px;
-//                 font-family: 'FiraGO Bold';
-//                 font-size: 34px;
-//                 color: $color01-blck;
-//             }
-//             .banner-par{
-//                 font-family: 'FiraGO Regular';
-//                 font-weight: lighter;
-//                 color: #040F16;
-//                 padding-bottom: 38px;
-//                 line-height: 30px;
-//                 font-size: 14px;
-//                 .text-sec{
-//                     display: none;
-//                 }
-
-//             }
-//             .firs-btn{
-//                 display: flex;
-//                 align-items: flex-start;
-//                 max-width: 200px;
-//                 height: 20px;
-//                 font-family: 'FiraGO Bold';
-//                 background: transparent;
-//                 color: #040F16;
-//                 font-size: 18px;
-//                 transition: all 0.1s linear 0.1s;
-//                 &:hover{
-//                     padding-left: 30px;
-//                     max-width: 400px;
-                   
-//                 }
-//                 .fa-caret-right{
-//                     padding-top: 7px;
-//                 }
-//                 .line{
-//                     background: black;
-//                     width: 60px;
-                   
-//                 }
-//                &:hover{
-//                    max-width: 300px;
-//                }
-//             }
-//         }
-//         .line-02{
-//                     background-color: black;
-//                     width: 27%;
-//                     height: 1px;
-//                     display: block;
-//         }
-//     }
-//     .title-div{
-//         @extend %container3;
-//         display: flex;
-//         justify-content:flex-end;
-//         align-items: center;
-//         padding-top: 37px;
-//         padding-bottom: 63px;
-//         .title-ul{
-//             display: flex;
-//             .title-li{
-//                 margin-right: 121px;
-//                 font-family: 'FiraGO Regular';
-//                 font-size: 40px;
-//                 color: $color01-blck;
-//                 text-decoration: underline;
-//             }
-//         }   
-//     }
-//    .div-colo-01{
-//         background: #EFEFF6;
-//         padding-bottom: 45px;
-//         .banner-content-01{
-//             @extend %container3;
-//             .title-01{
-//                 font-family: 'FiraGO Bold';
-//                 color: $color01-blck;
-//                 padding-top: 33px;
-//                 margin-bottom: 35px;
-//                 font-size: 34px;
-//             }
-//             .title-p{
-//                 font-family: 'FiraGO Regular';
-//                 font-weight: lighter;
-//                 color: #040F16;
-//                 padding-bottom: 38px;
-//                 line-height: 30px;
-//                 font-size: 14px;
-//                 .tex-none{
-//                     display: none;
-//                 }
-//             }
-//             .btn-sec{
-//                 display: flex;
-//                 align-items: flex-start;
-//                 max-width: 200px;
-//                 height: 20px;
-//                 font-family: 'FiraGO Bold';
-//                 background: transparent;
-//                 color: #040F16;
-//                 font-size: 18px;
-//                 transition: all 0.1s linear 0.1s;
-//                 &:hover{
-//                     padding-left: 30px;
-//                     max-width: 400px;
-                   
-//                 }
-//                 .fa-caret-right{
-//                     padding-top: 7px;
-//                 }
-//                 .line{
-//                     background: black;
-//                     width: 60px;
-                   
-//                 }
-//             }
-//         }
-//         .line-02{
-//             background-color: black;
-//             width: 27%;
-//             height: 1px;
-//             display: block;
-           
-//         }
-//    }
-// } 
