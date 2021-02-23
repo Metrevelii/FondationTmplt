@@ -150,7 +150,7 @@ html {
   font-style: normal;
   font-display: swap; }
 
-.box-container, .footer-main .footer-wrapper, section .bg-section .content-wrapper, section .image-section .images-wrapper, section .press-section .press-wrapper {
+.box-container, .footer-main .footer-wrapper, section .bg-section .content-wrapper, section .image-section .images-wrapper, section .press-section .press-wrapper, section .manuscript-section .box-wrapper, section .audio-video .audio-wrapper {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
@@ -534,7 +534,7 @@ section {
     right: -6px;
     bottom: -13px; }
 
-.box-container, .footer-main .footer-wrapper, section .bg-section .content-wrapper, section .image-section .images-wrapper, section .press-section .press-wrapper {
+.box-container, .footer-main .footer-wrapper, section .bg-section .content-wrapper, section .image-section .images-wrapper, section .press-section .press-wrapper, section .manuscript-section .box-wrapper, section .audio-video .audio-wrapper {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
@@ -773,7 +773,165 @@ section {
       section .press-section .press-wrapper .press {
         font-size: 40px;
         font-family: 'FiraGO Bold'; }
-      section .press-section .press-wrapper .paragraph .press-par {
+      section .press-section .press-wrapper .paragraph .press-01 {
         font-family: 'FiraGO Regular';
         font-size: 14px;
         margin-top: 20px; }
+      section .press-section .press-wrapper .paragraph .press-02 {
+        font-family: 'FiraGO Regular';
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 30px; }
+      section .press-section .press-wrapper .paragraph .press-03 {
+        font-family: 'FiraGO Regular';
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 30px; }
+      section .press-section .press-wrapper .paragraph .press-04 {
+        font-family: 'FiraGO Regular';
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 30px; }
+      section .press-section .press-wrapper .paragraph .press-05 {
+        font-family: 'FiraGO Regular';
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 30px; }
+      section .press-section .press-wrapper .paragraph .press-06, section .press-section .press-wrapper .paragraph .press-07 {
+        font-family: 'FiraGO Regular';
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 30px; }
+      section .press-section .press-wrapper .btn-third {
+        max-width: 300px;
+        width: 100%;
+        margin-top: 43px;
+        font-family: 'FiraGO Bold';
+        border: transparent;
+        transition: all .5s;
+        display: flex; }
+        section .press-section .press-wrapper .btn-third:hover {
+          padding-left: 30px;
+          max-width: 500px;
+          transition: all .5s; }
+        section .press-section .press-wrapper .btn-third .line-02 {
+          width: 61px;
+          height: 1px;
+          background-color: black;
+          display: flex;
+          align-self: flex-end;
+          position: relative; }
+          section .press-section .press-wrapper .btn-third .line-02 .fa-caret-right {
+            position: absolute;
+            top: -8px;
+            left: 60px; }
+    section .press-section .line-03 {
+      width: 27%;
+      height: 1px;
+      background-color: black; }
+  section .manuscript-section {
+    margin-top: 60px;
+    background: #EFEFF6; }
+    section .manuscript-section .box-wrapper .h3-title {
+      font-family: 'FiraGO Bold';
+      font-size: 40px;
+      padding-top: 25px; }
+    section .manuscript-section .box-wrapper .title-wrapper {
+      display: flex;
+      justify-content: space-between; }
+      section .manuscript-section .box-wrapper .title-wrapper .left-box {
+        max-width: 500px;
+        width: 100%;
+        margin-top: 32px; }
+        section .manuscript-section .box-wrapper .title-wrapper .left-box .left-img {
+          width: 100%; }
+        section .manuscript-section .box-wrapper .title-wrapper .left-box .title-p {
+          font-family: 'FiraGO Bold';
+          font-style: italic;
+          font-size: 24px;
+          margin: 10px 0; }
+        section .manuscript-section .box-wrapper .title-wrapper .left-box .title-p-01 {
+          font-family: 'FiraGO Thin';
+          font-style: italic;
+          font-size: 24px; }
+    section .manuscript-section .box-wrapper .right-box {
+      max-width: 500px;
+      width: 100%;
+      margin-top: 32px; }
+      section .manuscript-section .box-wrapper .right-box .right-img {
+        width: 100%; }
+      section .manuscript-section .box-wrapper .right-box .title-p {
+        font-family: 'FiraGO Bold';
+        font-style: italic;
+        font-size: 24px;
+        margin: 10px 0; }
+      section .manuscript-section .box-wrapper .right-box .title-p-01 {
+        font-family: 'FiraGO Thin';
+        font-style: italic;
+        font-size: 24px; }
+    section .manuscript-section .box-wrapper .btn-four {
+      max-width: 300px;
+      width: 100%;
+      margin-top: 43px;
+      font-family: 'FiraGO Bold';
+      border: transparent;
+      transition: all .5s;
+      display: flex; }
+      section .manuscript-section .box-wrapper .btn-four:hover {
+        padding-left: 30px;
+        max-width: 500px;
+        transition: all .5s; }
+      section .manuscript-section .box-wrapper .btn-four .line-02 {
+        width: 61px;
+        height: 1px;
+        background-color: black;
+        display: flex;
+        align-self: flex-end;
+        position: relative; }
+        section .manuscript-section .box-wrapper .btn-four .line-02 .fa-caret-right {
+          position: absolute;
+          top: -8px;
+          left: 60px; }
+    section .manuscript-section .line-04 {
+      width: 27%;
+      height: 1px;
+      background-color: black; }
+  section .audio-video {
+    margin-top: 60px;
+    background: #EFEFF6; }
+    section .audio-video .audio-wrapper .audio-h3 {
+      font-family: 'FiraGO Bold';
+      font-size: 40px;
+      padding: 20px 0; }
+    section .audio-video .audio-wrapper .video-wrapper .firs-p, section .audio-video .audio-wrapper .video-wrapper .sec-p, section .audio-video .audio-wrapper .video-wrapper .sec-01, section .audio-video .audio-wrapper .video-wrapper .sec-02, section .audio-video .audio-wrapper .video-wrapper .sec-03, section .audio-video .audio-wrapper .video-wrapper .sec-04 {
+      font-family: 'FiraGO Regular';
+      font-size: 14px;
+      color: #707070;
+      line-height: 30px; }
+    section .audio-video .audio-wrapper .btn-five {
+      max-width: 300px;
+      width: 100%;
+      margin-top: 43px;
+      font-family: 'FiraGO Bold';
+      border: transparent;
+      transition: all .5s;
+      display: flex; }
+      section .audio-video .audio-wrapper .btn-five:hover {
+        padding-left: 30px;
+        max-width: 500px;
+        transition: all .5s; }
+      section .audio-video .audio-wrapper .btn-five .line-02 {
+        width: 61px;
+        height: 1px;
+        background-color: black;
+        display: flex;
+        align-self: flex-end;
+        position: relative; }
+        section .audio-video .audio-wrapper .btn-five .line-02 .fa-caret-right {
+          position: absolute;
+          top: -8px;
+          left: 60px; }
+    section .audio-video .line-04 {
+      width: 27%;
+      height: 1px;
+      background-color: black; }
