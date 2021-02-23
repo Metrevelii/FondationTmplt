@@ -54,6 +54,9 @@ button, textarea, input:focus {
 html {
   scroll-behavior: smooth; }
 
+button {
+  text-transform: uppercase; }
+
 @font-face {
   font-family: 'Poppins Bold';
   src: url("../fonts/Poppins-Bold.eot");
@@ -150,7 +153,7 @@ html {
   font-style: normal;
   font-display: swap; }
 
-.box-container, .footer-main .footer-wrapper, section .bg-section .content-wrapper, section .image-section .images-wrapper, section .press-section .press-wrapper, section .manuscript-section .box-wrapper, section .audio-video .audio-wrapper {
+.box-container, .footer-main .footer-wrapper, section .bg-section .content-wrapper, section .image-section .images-wrapper, section .press-section .press-wrapper, section .manuscript-section .box-wrapper, section .audio-video .audio-wrapper, section .section-01 .sec-01-content, section .photos-section .photos-wrapper, section .section-02 .titile-wrapper {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
@@ -534,7 +537,7 @@ section {
     right: -6px;
     bottom: -13px; }
 
-.box-container, .footer-main .footer-wrapper, section .bg-section .content-wrapper, section .image-section .images-wrapper, section .press-section .press-wrapper, section .manuscript-section .box-wrapper, section .audio-video .audio-wrapper {
+.box-container, .footer-main .footer-wrapper, section .bg-section .content-wrapper, section .image-section .images-wrapper, section .press-section .press-wrapper, section .manuscript-section .box-wrapper, section .audio-video .audio-wrapper, section .section-01 .sec-01-content, section .photos-section .photos-wrapper, section .section-02 .titile-wrapper {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
@@ -663,6 +666,7 @@ section {
       margin-top: 43px;
       font-family: 'FiraGO Bold';
       border: transparent;
+      text-transform: uppercase;
       transition: all .5s;
       display: flex; }
       section .bg-section .content-wrapper .first-btn:hover {
@@ -933,5 +937,258 @@ section {
           left: 60px; }
     section .audio-video .line-04 {
       width: 27%;
+      height: 1px;
+      background-color: black; }
+
+section {
+  background-image: url("../images/body-bg-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  padding-bottom: 50px; }
+  section .banner-content {
+    display: flex; }
+    section .banner-content .left-img-block {
+      max-width: 683px;
+      width: 100%; }
+      section .banner-content .left-img-block .left-img {
+        width: 100%; }
+    section .banner-content .right-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-top: 91px;
+      margin-left: 50px; }
+      section .banner-content .right-block .right-h3 {
+        font-family: 'Poppins Bold';
+        font-size: 40px;
+        max-width: 730px;
+        width: 100%; }
+      section .banner-content .right-block .rigth-hr {
+        width: 100%;
+        height: 1px;
+        background: black; }
+  section .section-01 {
+    margin-top: 60px;
+    background: #EFEFF6; }
+    section .section-01 .sec-01-content .sec-h2 {
+      padding-top: 34px;
+      font-family: 'Poppins Bold';
+      font-size: 34px;
+      text-transform: uppercase; }
+    section .section-01 .sec-01-content .paragraph {
+      margin-top: 25px; }
+      section .section-01 .sec-01-content .paragraph .p-01 {
+        font-family: 'Poppins Regular';
+        font-size: 16px;
+        font-weight: lighter;
+        line-height: 25px; }
+      section .section-01 .sec-01-content .paragraph .p-02 {
+        margin-top: 40px;
+        font-family: 'Poppins Regular';
+        font-size: 16px;
+        font-weight: lighter;
+        line-height: 39px; }
+      section .section-01 .sec-01-content .paragraph .p-03 {
+        margin-top: 40px;
+        font-family: 'Poppins Regular';
+        font-size: 16px;
+        font-weight: lighter;
+        line-height: 20px; }
+    section .section-01 .sec-01-content .first-btn {
+      max-width: 300px;
+      width: 100%;
+      margin-top: 43px;
+      font-family: 'FiraGO Bold';
+      border: transparent;
+      text-transform: uppercase;
+      transition: all .5s;
+      display: flex; }
+      section .section-01 .sec-01-content .first-btn:hover {
+        padding-left: 30px;
+        max-width: 500px;
+        transition: all .5s; }
+      section .section-01 .sec-01-content .first-btn .line-01 {
+        width: 61px;
+        height: 1px;
+        background-color: black;
+        display: flex;
+        align-self: flex-end;
+        position: relative; }
+        section .section-01 .sec-01-content .first-btn .line-01 .fa-caret-right {
+          position: absolute;
+          top: -8px;
+          left: 60px; }
+    section .section-01 .line-02 {
+      width: 26%;
+      height: 1px;
+      background-color: black; }
+  section .photos-section {
+    margin-top: 60px;
+    background: #EFEFF6; }
+    section .photos-section .photos-wrapper {
+      padding-top: 25px; }
+      section .photos-section .photos-wrapper .photo-h2 {
+        font-family: 'Poppins Bold';
+        font-size: 34px;
+        text-transform: uppercase; }
+      section .photos-section .photos-wrapper .list-wrapper {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between; }
+        section .photos-section .photos-wrapper .list-wrapper .img-01 {
+          max-width: 248px;
+          width: 100%; }
+          section .photos-section .photos-wrapper .list-wrapper .img-01 .img-001 {
+            width: 100%; }
+        section .photos-section .photos-wrapper .list-wrapper .img-02 {
+          max-width: 248px;
+          width: 100%; }
+          section .photos-section .photos-wrapper .list-wrapper .img-02 .img-002 {
+            width: 100%; }
+        section .photos-section .photos-wrapper .list-wrapper .img-03 {
+          max-width: 248px;
+          width: 100%; }
+          section .photos-section .photos-wrapper .list-wrapper .img-03 .img-003 {
+            width: 100%; }
+        section .photos-section .photos-wrapper .list-wrapper .img-04 {
+          max-width: 248px;
+          width: 100%; }
+          section .photos-section .photos-wrapper .list-wrapper .img-04 .img-004 {
+            width: 100%; }
+      section .photos-section .photos-wrapper .list-wrapper-01 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between; }
+        section .photos-section .photos-wrapper .list-wrapper-01 .img-01 {
+          max-width: 248px;
+          width: 100%; }
+          section .photos-section .photos-wrapper .list-wrapper-01 .img-01 .img-001 {
+            width: 100%; }
+        section .photos-section .photos-wrapper .list-wrapper-01 .img-02 {
+          max-width: 248px;
+          width: 100%; }
+          section .photos-section .photos-wrapper .list-wrapper-01 .img-02 .img-002 {
+            width: 100%; }
+        section .photos-section .photos-wrapper .list-wrapper-01 .img-03 {
+          max-width: 248px;
+          width: 100%; }
+          section .photos-section .photos-wrapper .list-wrapper-01 .img-03 .img-003 {
+            width: 100%; }
+        section .photos-section .photos-wrapper .list-wrapper-01 .img-04 {
+          max-width: 248px;
+          width: 100%; }
+          section .photos-section .photos-wrapper .list-wrapper-01 .img-04 .img-004 {
+            width: 100%; }
+      section .photos-section .photos-wrapper .first-btn {
+        max-width: 300px;
+        width: 100%;
+        margin-top: 43px;
+        font-family: 'FiraGO Bold';
+        border: transparent;
+        text-transform: uppercase;
+        transition: all .5s;
+        display: flex; }
+        section .photos-section .photos-wrapper .first-btn:hover {
+          padding-left: 30px;
+          max-width: 500px;
+          transition: all .5s; }
+        section .photos-section .photos-wrapper .first-btn .line-01 {
+          width: 61px;
+          height: 1px;
+          background-color: black;
+          display: flex;
+          align-self: flex-end;
+          position: relative; }
+          section .photos-section .photos-wrapper .first-btn .line-01 .fa-caret-right {
+            position: absolute;
+            top: -8px;
+            left: 60px; }
+  section .line-02 {
+    width: 26%;
+    height: 1px;
+    background-color: black; }
+  section .section-02 {
+    margin-top: 60px;
+    background: #EFEFF6; }
+    section .section-02 .titile-wrapper {
+      padding-top: 25px; }
+      section .section-02 .titile-wrapper .pres-h2 {
+        font-family: 'Poppins Bold';
+        font-size: 34px;
+        text-transform: uppercase;
+        margin-bottom: 25px; }
+      section .section-02 .titile-wrapper .presse-wrapper .p-01 {
+        font-family: 'Poppins Regular';
+        font-weight: lighter;
+        line-height: 25px;
+        font-size: 16px; }
+      section .section-02 .titile-wrapper .presse-wrapper .p-001 {
+        text-indent: 40px;
+        margin-top: 20px;
+        font-family: 'Poppins Medium';
+        font-size: 16px; }
+      section .section-02 .titile-wrapper .presse-wrapper .p-02 {
+        font-family: 'Poppins Regular';
+        font-weight: lighter;
+        line-height: 25px;
+        font-size: 16px;
+        margin-top: 20px; }
+      section .section-02 .titile-wrapper .presse-wrapper .p-002 {
+        text-indent: 40px;
+        margin-top: 20px;
+        font-family: 'Poppins Medium';
+        font-size: 16px; }
+      section .section-02 .titile-wrapper .presse-wrapper .p-03 {
+        font-family: 'Poppins Regular';
+        font-weight: lighter;
+        line-height: 25px;
+        font-size: 16px;
+        margin-top: 20px; }
+      section .section-02 .titile-wrapper .presse-wrapper .p-003 {
+        text-indent: 40px;
+        margin-top: 20px;
+        font-family: 'Poppins Medium';
+        font-size: 16px; }
+      section .section-02 .titile-wrapper .presse-wrapper .p-04 {
+        font-family: 'Poppins Regular';
+        font-weight: lighter;
+        line-height: 25px;
+        font-size: 16px;
+        margin-top: 20px; }
+      section .section-02 .titile-wrapper .presse-wrapper .p-004 {
+        text-indent: 40px;
+        margin-top: 20px;
+        font-family: 'Poppins Medium';
+        font-size: 16px; }
+      section .section-02 .titile-wrapper .first-btn {
+        max-width: 300px;
+        width: 100%;
+        margin-top: 43px;
+        font-family: 'FiraGO Bold';
+        border: transparent;
+        text-transform: uppercase;
+        transition: all .5s;
+        display: flex; }
+        section .section-02 .titile-wrapper .first-btn:hover {
+          padding-left: 30px;
+          max-width: 500px;
+          transition: all .5s; }
+        section .section-02 .titile-wrapper .first-btn .line-01 {
+          width: 61px;
+          height: 1px;
+          background-color: black;
+          display: flex;
+          align-self: flex-end;
+          position: relative; }
+          section .section-02 .titile-wrapper .first-btn .line-01 .fa-caret-right {
+            position: absolute;
+            top: -8px;
+            left: 60px; }
+    section .section-02 .line-02 {
+      width: 26%;
       height: 1px;
       background-color: black; }
