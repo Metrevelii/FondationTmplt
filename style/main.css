@@ -153,7 +153,7 @@ button {
   font-style: normal;
   font-display: swap; }
 
-.box-container, .footer-main .footer-wrapper, section .bg-section .content-wrapper, section .image-section .images-wrapper, section .press-section .press-wrapper, section .manuscript-section .box-wrapper, section .audio-video .audio-wrapper, section .section-01 .sec-01-content, section .photos-section .photos-wrapper, section .section-02 .titile-wrapper {
+.box-container, .footer-main .footer-wrapper, section .bg-section .content-wrapper, section .image-section .images-wrapper, section .press-section .press-wrapper, section .manuscript-section .box-wrapper, section .audio-video .audio-wrapper, section .section-01 .sec-01-content, section .photos-section .photos-wrapper, section .section-02 .titile-wrapper, section .manu-section .title, section .manu-section .manu-wrapper, section .audio-section .audio-wrapper {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
@@ -537,7 +537,7 @@ section {
     right: -6px;
     bottom: -13px; }
 
-.box-container, .footer-main .footer-wrapper, section .bg-section .content-wrapper, section .image-section .images-wrapper, section .press-section .press-wrapper, section .manuscript-section .box-wrapper, section .audio-video .audio-wrapper, section .section-01 .sec-01-content, section .photos-section .photos-wrapper, section .section-02 .titile-wrapper {
+.box-container, .footer-main .footer-wrapper, section .bg-section .content-wrapper, section .image-section .images-wrapper, section .press-section .press-wrapper, section .manuscript-section .box-wrapper, section .audio-video .audio-wrapper, section .section-01 .sec-01-content, section .photos-section .photos-wrapper, section .section-02 .titile-wrapper, section .manu-section .title, section .manu-section .manu-wrapper, section .audio-section .audio-wrapper {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto; }
@@ -1189,6 +1189,127 @@ section {
             top: -8px;
             left: 60px; }
     section .section-02 .line-02 {
+      width: 26%;
+      height: 1px;
+      background-color: black; }
+  section .manu-section {
+    margin-top: 60px;
+    background: #EFEFF6; }
+    section .manu-section .title {
+      padding-top: 25px; }
+      section .manu-section .title .titile-h3 {
+        font-family: 'Poppins Bold';
+        font-size: 34px;
+        font-weight: bold;
+        text-transform: uppercase; }
+    section .manu-section .manu-wrapper {
+      padding-top: 31px;
+      display: flex;
+      justify-content: space-between; }
+      section .manu-section .manu-wrapper .left-block {
+        max-width: 500px;
+        width: 100%; }
+        section .manu-section .manu-wrapper .left-block .first-img {
+          width: 100%; }
+        section .manu-section .manu-wrapper .left-block .name {
+          font-family: 'Poppins Bold';
+          font-style: italic;
+          font-size: 25px; }
+        section .manu-section .manu-wrapper .left-block .sec-p {
+          font-style: italic;
+          font-size: 18px;
+          font-family: 'Poppins Medium'; }
+        section .manu-section .manu-wrapper .left-block .first-btn {
+          max-width: 300px;
+          width: 100%;
+          margin-top: 43px;
+          font-family: 'FiraGO Bold';
+          border: transparent;
+          text-transform: uppercase;
+          transition: all .5s;
+          display: flex; }
+          section .manu-section .manu-wrapper .left-block .first-btn:hover {
+            padding-left: 30px;
+            max-width: 500px;
+            transition: all .5s; }
+          section .manu-section .manu-wrapper .left-block .first-btn .line-01 {
+            width: 61px;
+            height: 1px;
+            background-color: black;
+            display: flex;
+            align-self: flex-end;
+            position: relative; }
+            section .manu-section .manu-wrapper .left-block .first-btn .line-01 .fa-caret-right {
+              position: absolute;
+              top: -8px;
+              left: 60px; }
+      section .manu-section .manu-wrapper .rigth-block {
+        max-width: 500px;
+        width: 100%; }
+        section .manu-section .manu-wrapper .rigth-block .first-img {
+          width: 100%; }
+        section .manu-section .manu-wrapper .rigth-block .name {
+          font-family: 'Poppins Bold';
+          font-style: italic;
+          font-size: 25px; }
+        section .manu-section .manu-wrapper .rigth-block .sec-p {
+          font-style: italic;
+          font-size: 18px;
+          font-family: 'Poppins Medium'; }
+    section .manu-section .line-02 {
+      width: 26%;
+      height: 1px;
+      background-color: black; }
+  section .audio-section {
+    margin-top: 60px;
+    background: #EFEFF6; }
+    section .audio-section .audio-wrapper {
+      padding-top: 31px; }
+      section .audio-section .audio-wrapper .audio-h3 {
+        font-family: 'Poppins Bold';
+        font-size: 34px;
+        text-transform: uppercase; }
+      section .audio-section .audio-wrapper .video-box {
+        margin-top: 25px; }
+        section .audio-section .audio-wrapper .video-box .p-01, section .audio-section .audio-wrapper .video-box .p-07, section .audio-section .audio-wrapper .video-box .p-11 {
+          font-family: 'Poppins Regular';
+          font-size: 16px;
+          font-weight: bold;
+          text-transform: uppercase; }
+        section .audio-section .audio-wrapper .video-box .p-02, section .audio-section .audio-wrapper .video-box .p-03, section .audio-section .audio-wrapper .video-box .p-04, section .audio-section .audio-wrapper .video-box .p-05, section .audio-section .audio-wrapper .video-box .p-06, section .audio-section .audio-wrapper .video-box .p-12 {
+          font-family: 'Poppins Regular';
+          font-size: 16px;
+          margin: 10px 0;
+          line-height: 25px; }
+      section .audio-section .audio-wrapper .p-08, section .audio-section .audio-wrapper .p-09, section .audio-section .audio-wrapper .p-10 {
+        font-family: 'Poppins Regular';
+        font-size: 16px;
+        margin: 10px 0; }
+    section .audio-section .first-btn {
+      max-width: 300px;
+      width: 100%;
+      margin-top: 43px;
+      font-family: 'FiraGO Bold';
+      border: transparent;
+      text-transform: uppercase;
+      transition: all .5s;
+      display: flex; }
+      section .audio-section .first-btn:hover {
+        padding-left: 30px;
+        max-width: 500px;
+        transition: all .5s; }
+      section .audio-section .first-btn .line-01 {
+        width: 61px;
+        height: 1px;
+        background-color: black;
+        display: flex;
+        align-self: flex-end;
+        position: relative; }
+        section .audio-section .first-btn .line-01 .fa-caret-right {
+          position: absolute;
+          top: -8px;
+          left: 60px; }
+    section .audio-section .line-02 {
       width: 26%;
       height: 1px;
       background-color: black; }
